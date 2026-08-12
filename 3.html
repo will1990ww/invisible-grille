@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en-SG">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invisible Grille Specialist | Premium Invisible Safety Net Systems</title>
+    <meta name="description" content="Invisible Grille Specialist - Professional Invisible Grilles in Singapore. Nylon ($8/sqft), PTFE Teflon ($10/sqft) & Nano-Coated ($16/sqft). 7-day fast installation.">
+    <meta name="keywords" content="Invisible Grille Specialist, Invisible Safety Net Singapore, Cat Proof Grille, Nano Wire Grille, PTFE Teflon Wire, HDB Balcony Grille">
+    <meta name="author" content="Invisible Grille Specialist">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Invisible Grille Specialist",
+      "url": "https://yoursite.com",
+      "telephone": "+65 8341 7888",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Singapore"
+      }
+    }
+    </script>
+
+    <style>
+        /* ==================== 1. CORE CSS VARIABLES & RESET ==================== */
+        :root {
+            --primary-dark: #0F172A;   /* 深石板蓝 - 主基调 */
+            --accent-blue: #2563EB;    /* 皇家蓝 - 专业科技 */
+            --accent-gold: #D97706;    /* 尊享金 */
+            --cta-green: #16A34A;      /* 高转化绿色 */
+            --cta-red: #DC2626;        /* 醒目红 */
+            --bg-light: #F8FAFC;       /* 浅灰背景 */
+            --card-bg: #FFFFFF;
+            --text-main: #1E293B;      /* 深灰文本 */
+            --text-muted: #64748B;    /* 辅助文本 */
+            --border-color: #E2E8F0;
+            --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 20px 30px -10px rgba(0, 0, 0, 0.12);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-main);
+            background-color: #FFFFFF;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { max-width: 100%; height: auto; display: block; }
+
+        /* ==================== 2. HEADER & NAVIGATION ==================== */
+        header {
+            background: rgba(15, 23, 42, 0.92);
+            backdrop-filter: blur(12px);
+            color: #FFFFFF;
+            padding: 0.9rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-title {
+            font-size: 1.35rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: #FFFFFF;
+        }
+
+        .logo-title span {
+            color: #60A5FA;
+        }
+
+        header nav {
+            display: flex;
+            gap: 22px;
+            align-items: center;
+        }
+
+        header nav a {
+            color: #CBD5E1;
+            font-weight: 500;
+            font-size: 0.92rem;
+            transition: color 0.25s;
+        }
+
+        header nav a:hover {
+            color: #FFFFFF;
+        }
+
+        .header-contact-btn {
+            background: var(--accent-blue);
+            color: #FFFFFF !important;
+            padding: 8px 16px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            font-size: 0.88rem;
+            transition: background 0.3s;
+        }
+
+        .header-contact-btn:hover {
+            background: #1D4ED8;
+        }
+
+        /* ==================== 3. HERO SECTION WITH CLEAR VIDEO BACKGROUND ==================== */
+        .hero-section {
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero-video-bg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: 1;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+
+        /* 优化透明度，让背景视频更清晰呈现 */
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.6) 100%);
+            z-index: 2;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 3;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(15, 23, 42, 0.65);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(8px);
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+            color: #F1F5F9;
+        }
+
+        .hero-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); /* 文字阴影确保视频变清晰后依然清晰可读 */
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: #F8FAFC;
+            margin-bottom: 35px;
+            font-weight: 400;
+            line-height: 1.6;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-cta-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--cta-green);
+            color: #FFFFFF;
+            padding: 15px 32px;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: 1rem;
+            box-shadow: 0 4px 15px rgba(22, 163, 74, 0.4);
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background: #15803D;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            color: #FFFFFF;
+            padding: 15px 28px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            font-size: 1rem;
+            backdrop-filter: blur(5px);
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .trust-banner {
+            background: var(--primary-dark);
+            border-bottom: 1px solid #1E293B;
+            padding: 18px 5%;
+            color: #94A3B8;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .trust-grid {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #E2E8F0;
+        }
+
+        /* ==================== 4. GENERAL SECTION LAYOUT ==================== */
+        section {
+            padding: 70px 5%;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 50px auto;
+        }
+
+        .section-tag {
+            color: var(--accent-blue);
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .section-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            margin-bottom: 12px;
+            line-height: 1.25;
+        }
+
+        .section-desc {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        /* ==================== 5. QUICK SELECTION DECISION GUIDE ==================== */
+        .decision-section {
+            background-color: var(--bg-light);
+        }
+
+        .decision-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .decision-card {
+            background: var(--card-bg);
+            border-radius: var(--radius-md);
+            padding: 28px 24px;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-color);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .decision-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .decision-card.featured {
+            border: 2px solid var(--accent-blue);
+        }
+
+        .badge-pop {
+            position: absolute;
+            top: -12px;
+            right: 20px;
+            background: var(--accent-blue);
+            color: #FFFFFF;
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            text-transform: uppercase;
+        }
+
+        .decision-card .target-icon {
+            font-size: 2.2rem;
+            margin-bottom: 12px;
+        }
+
+        .decision-card h3 {
+            font-size: 1.3rem;
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .decision-card .scenario-tag {
+            font-size: 0.85rem;
+            color: var(--accent-blue);
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .decision-card .spec-list {
+            margin: 15px 0;
+            padding-top: 15px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .decision-card .spec-item {
+            font-size: 0.9rem;
+            color: var(--text-main);
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .decision-card .spec-label {
+            color: var(--text-muted);
+        }
+
+        .decision-card .spec-value {
+            font-weight: 600;
+        }
+
+        .btn-card-select {
+            width: 100%;
+            text-align: center;
+            background: var(--primary-dark);
+            color: #FFFFFF;
+            padding: 12px;
+            border-radius: var(--radius-sm);
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: background 0.3s;
+            display: block;
+        }
+
+        .btn-card-select:hover {
+            background: var(--accent-blue);
+        }
+
+        /* ==================== 6. PRODUCT CATALOGUE SECTION ==================== */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 28px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: #FFFFFF;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .product-img-wrapper {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-color: #F1F5F9;
+            overflow: hidden;
+        }
+
+        .product-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .product-card:hover .product-img {
+            transform: scale(1.05);
+        }
+
+        .product-tag-overlay {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(15, 23, 42, 0.85);
+            color: #FFFFFF;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .product-body {
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .product-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 6px;
+        }
+
+        .product-subtitle {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+        }
+
+        .product-features {
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .product-features li {
+            font-size: 0.88rem;
+            color: var(--text-main);
+            margin-bottom: 8px;
+            padding-left: 18px;
+            position: relative;
+        }
+
+        .product-features li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--cta-green);
+            font-weight: bold;
+        }
+
+        .product-footer {
+            padding-top: 15px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .product-meta {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .product-meta strong {
+            color: var(--accent-blue);
+            display: block;
+            font-size: 1.05rem;
+            font-weight: 800;
+        }
+
+        /* ==================== 7. PROJECT PHOTO SHOWCASE (新增案例画廊) ==================== */
+        .showcase-section {
+            background-color: var(--bg-light);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            height: 240px;
+            background: #E2E8F0;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 15px;
+            background: linear-gradient(0deg, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0) 100%);
+            color: #FFFFFF;
+        }
+
+        .gallery-caption h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .gallery-caption p {
+            font-size: 0.8rem;
+            color: #CBD5E1;
+        }
+
+        /* ==================== 8. TRACK SPECIFICATIONS SECTION ==================== */
+        .track-section {
+            background-color: #FFFFFF;
+        }
+
+        .track-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 40px;
+            border-top: 5px solid var(--accent-blue);
+            box-shadow: var(--shadow-md);
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .track-card h3 {
+            font-size: 1.5rem;
+            color: var(--primary-dark);
+            margin-bottom: 15px;
+        }
+
+        .track-card p {
+            font-size: 1rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        /* ==================== 9. AI INTERACTIVE CALCULATOR ==================== */
+        .calc-container {
+            background: #FFFFFF;
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            max-width: 780px;
+            margin: 0 auto;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border-color);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        select, input[type="range"] {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #CBD5E1;
+            border-radius: var(--radius-sm);
+            background-color: #FFFFFF;
+            font-size: 0.95rem;
+            color: var(--text-main);
+        }
+
+        .radio-tile-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .radio-tile {
+            border: 2px solid var(--border-color);
+            padding: 14px;
+            text-align: center;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.92rem;
+            transition: all 0.2s;
+            color: var(--text-muted);
+        }
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        input[type="radio"]:checked + .radio-tile {
+            border-color: var(--accent-blue);
+            background: #EFF6FF;
+            color: var(--accent-blue);
+        }
+
+        #quote-result-box {
+            margin-top: 30px;
+            padding: 25px;
+            background: #F8FAFC;
+            border-radius: var(--radius-md);
+            border: 1px solid #E2E8F0;
+            border-left: 6px solid var(--cta-green);
+        }
+
+        .deposit-notice {
+            background: #FEF3C7;
+            color: #92400E;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .price-output {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            margin: 5px 0 10px 0;
+        }
+
+        /* ==================== 10. FAQ ACCORDION ==================== */
+        .faq-wrapper {
+            max-width: 820px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: #FFFFFF;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            margin-bottom: 12px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+
+        .faq-item:hover {
+            border-color: var(--accent-blue);
+        }
+
+        .faq-question {
+            padding: 18px 22px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--primary-dark);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 0 22px 20px 22px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            border-top: 1px solid #F1F5F9;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-item.active .faq-question::after {
+            content: "−";
+            color: var(--accent-blue);
+            font-size: 1.5rem;
+        }
+
+        .faq-question::after {
+            content: "+";
+            color: var(--text-muted);
+            font-size: 1.4rem;
+        }
+
+        /* ==================== 11. MODAL & STICKY CTA ==================== */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(15, 23, 42, 0.75);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-box {
+            background: #FFFFFF;
+            padding: 35px;
+            border-radius: var(--radius-md);
+            max-width: 460px;
+            width: 90%;
+            text-align: center;
+            position: relative;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.6rem;
+            cursor: pointer;
+            color: var(--text-muted);
+        }
+
+        .mobile-sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--cta-green);
+            color: #FFFFFF;
+            text-align: center;
+            padding: 14px 0;
+            font-weight: 700;
+            font-size: 1.05rem;
+            display: none;
+            z-index: 999;
+            box-shadow: 0 -4px 15px rgba(0,0,0,0.15);
+        }
+
+        /* ==================== 12. FOOTER ==================== */
+        footer {
+            background: var(--primary-dark);
+            color: #94A3B8;
+            padding: 50px 5% 30px 5%;
+            font-size: 0.88rem;
+            border-top: 1px solid #1E293B;
+        }
+
+        .footer-grid {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-col h4 {
+            color: #FFFFFF;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .footer-col p { margin-bottom: 8px; }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 25px;
+            border-top: 1px solid #1E293B;
+            font-size: 0.8rem;
+        }
+
+        /* Responsive Breakpoints */
+        @media(max-width: 768px) {
+            .hero-title { font-size: 2rem; }
+            .hero-subtitle { font-size: 1rem; }
+            section { padding: 50px 20px; }
+            .mobile-sticky-cta { display: block; }
+            body { padding-bottom: 55px; }
+            header nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ==================== HEADER NAVIGATION ==================== -->
+    <header>
+        <div class="brand-logo">
+            <div class="logo-title">Invisible Grille <span>Specialist</span></div>
+        </div>
+        <nav>
+            <a href="#quick-guide">Selection Guide</a>
+            <a href="#wire-products">Wire Ropes</a>
+            <a href="#project-showcase">Projects</a>
+            <a href="#track-spec">Track Systems</a>
+            <a href="#quote-calculator">AI Quote</a>
+            <a href="#faq">FAQ</a>
+            <a href="https://wa.me/6583417888?text=Hi%20Invisible%20Grille%20Specialist%2C%20I%20would%20like%20to%20inquire%20about%20invisible%20grilles." target="_blank" class="header-contact-btn">📞 WhatsApp 83417888</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==================== HERO SECTION (WITH CLEAR VIDEO BACKGROUND) ==================== -->
+        <section class="hero-section">
+            <video autoplay muted loop playsinline class="hero-video-bg">
+                <source src="video/mainvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <span class="hero-badge">🛡️ Certified Invisible Safety Net Systems</span>
+                <h1 class="hero-title" id="dynamic-hero-title">Uncompromised Balcony Safety Without Blocking Your View</h1>
+                <p class="hero-subtitle" id="dynamic-hero-subtitle">Engineering-grade Aluminium Alloy Tracks paired with Nylon ($8/sqft), PTFE Teflon ($10/sqft) & Nano-Coated ($16/sqft) Wire Ropes. Fast 7-day lead time & SGD 100 booking fee.</p>
+                
+                <div class="hero-cta-group">
+                    <a href="#quote-calculator" class="btn-primary">
+                        ⚡ Instant AI Pricing & Reservation
+                    </a>
+                    <a href="#quick-guide" class="btn-secondary">
+                        📋 View Recommended Packages
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 信任承诺横幅 -->
+        <div class="trust-banner">
+            <div class="trust-grid">
+                <div class="trust-item"><span>🚀</span> Lead Time: 7 Working Days</div>
+                <div class="trust-item"><span>💰</span> SGD 100 Deposit Only</div>
+                <div class="trust-item"><span>📦</span> MOQ: 1 Unit</div>
+                <div class="trust-item"><span>🛡️</span> Up to 10-Year Warranty</div>
+                <div class="trust-item"><span>📞</span> Direct Support: 83417888</div>
+            </div>
+        </div>
+
+        <!-- ==================== 1. QUICK SELECTION DECISION GUIDE ==================== -->
+        <section id="quick-guide" class="decision-section">
+            <div class="section-header">
+                <span class="section-tag">Instant Selection</span>
+                <h2 class="section-title">Which Package Fits Your Needs Best?</h2>
+                <p class="section-desc">Select the configuration that best matches your home type and safety requirements.</p>
+            </div>
+
+            <div class="decision-grid">
+                <!-- Package 1: Value / Rental ($8/sqft) -->
+                <article class="decision-card">
+                    <div>
+                        <div class="target-icon">🏢</div>
+                        <h3>Value / Rental Package</h3>
+                        <p class="scenario-tag">Best for: Rental Properties & Public Spaces</p>
+                        <ul class="spec-list">
+                            <li class="spec-item"><span class="spec-label">Rate:</span> <span class="spec-value" style="color:var(--accent-blue);">$8 / sq ft</span></li>
+                            <li class="spec-item"><span class="spec-label">Wire Type:</span> <span class="spec-value">Nylon-Coated Wire</span></li>
+                            <li class="spec-item"><span class="spec-label">Warranty:</span> <span class="spec-value">3 Years</span></li>
+                            <li class="spec-item"><span class="spec-label">Lead Time:</span> <span class="spec-value">7 Days</span></li>
+                        </ul>
+                    </div>
+                    <a href="#quote-calculator" onclick="selectPreset('nylon')" class="btn-card-select">Choose Value Plan</a>
+                </article>
+
+                <!-- Package 2: Quality Premium ($10/sqft) (Featured) -->
+                <article class="decision-card featured">
+                    <span class="badge-pop">⭐ Highly Recommended</span>
+                    <div>
+                        <div class="target-icon">🏠</div>
+                        <h3>Quality Home Premium</h3>
+                        <p class="scenario-tag">Best for: BTO Flats, Condos & Homeowners</p>
+                        <ul class="spec-list">
+                            <li class="spec-item"><span class="spec-label">Rate:</span> <span class="spec-value" style="color:var(--accent-blue);">$10 / sq ft</span></li>
+                            <li class="spec-item"><span class="spec-label">Wire Type:</span> <span class="spec-value">PTFE Teflon Wire</span></li>
+                            <li class="spec-item"><span class="spec-label">Warranty:</span> <span class="spec-value">5 Years</span></li>
+                            <li class="spec-item"><span class="spec-label">Lead Time:</span> <span class="spec-value">7 Days</span></li>
+                        </ul>
+                    </div>
+                    <a href="#quote-calculator" onclick="selectPreset('ptfe')" class="btn-card-select" style="background: var(--accent-blue);">Choose Home Plan</a>
+                </article>
+
+                <!-- Package 3: Premium Luxury / Coastal ($16/sqft) -->
+                <article class="decision-card">
+                    <div>
+                        <div class="target-icon">🌊</div>
+                        <h3>Premium Luxury & Coastal</h3>
+                        <p class="scenario-tag">Best for: Seafront Condos & High-End Estates</p>
+                        <ul class="spec-list">
+                            <li class="spec-item"><span class="spec-label">Rate:</span> <span class="spec-value" style="color:var(--accent-blue);">$16 / sq ft</span></li>
+                            <li class="spec-item"><span class="spec-label">Wire Type:</span> <span class="spec-value">Nano-Coated Wire</span></li>
+                            <li class="spec-item"><span class="spec-label">Warranty:</span> <span class="spec-value">10 Years</span></li>
+                            <li class="spec-item"><span class="spec-label">Feature:</span> <span class="spec-value">Blue Core Quality</span></li>
+                        </ul>
+                    </div>
+                    <a href="#quote-calculator" onclick="selectPreset('nano')" class="btn-card-select">Choose Nano Plan</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==================== 2. WIRE ROPE PRODUCTS CATALOGUE ==================== -->
+        <section id="wire-products">
+            <div class="section-header">
+                <span class="section-tag">Catalogue Specifications</span>
+                <h2 class="section-title">Core Stainless Steel Wire Rope Series</h2>
+                <p class="section-desc">Each product features specific strand configurations and protective coatings tailored for various environment and security needs.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1: Nylon-Coated Wire ($8/sqft, 3 Yrs) -->
+                <article class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="photo/wire-nylon.webp" alt="12+1 Nylon Coated Wire Rope with Alarm Core" class="product-img" onerror="this.src='https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=600&q=80'">
+                        <span class="product-tag-overlay">Nylon Series (尼龙包皮 12+1)</span>
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">12+1 Nylon-Coated Wire Rope</h3>
+                        <p class="product-subtitle">1010-Grade Nylon Sheath | Alarm-Connectable</p>
+                        <ul class="product-features">
+                            <li>Wrapped in a high-quality protective layer, comfortable to touch</li>
+                            <li>12 SS strands + 1 internal steel conductor wire</li>
+                            <li>Connectable to smart home alarm systems</li>
+                            <li>Light-absorbing nylon makes wire nearly invisible outdoors</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-meta">
+                                <strong>$8 / sq ft</strong>
+                                3-Year Warranty
+                            </div>
+                            <a href="#quote-calculator" class="header-contact-btn" style="font-size:0.8rem; padding: 6px 12px;">Quote</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 2: PTFE Teflon Coated Wire ($10/sqft, 5 Yrs) -->
+                <article class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="photo/wire-ptfe.webp" alt="PTFE Teflon Coated Stainless Steel Wire Rope" class="product-img" onerror="this.src='https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=600&q=80'">
+                        <span class="product-tag-overlay">PTFE Series (铁氟龙钢丝)</span>
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">PTFE (Teflon) Coated Wire Rope</h3>
+                        <p class="product-subtitle">Molecular Level PTFE Penetration | 304 / 316 SS</p>
+                        <ul class="product-features">
+                            <li>Exceptionally wear-resistant and anti-aging properties</li>
+                            <li>Superior anti-corrosion & anti-friction surface</li>
+                            <li>Extreme high & low temperature tolerance</li>
+                            <li>UV-stable coating preventing yellowing or degradation</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-meta">
+                                <strong>$10 / sq ft</strong>
+                                5-Year Warranty
+                            </div>
+                            <a href="#quote-calculator" class="header-contact-btn" style="font-size:0.8rem; padding: 6px 12px;">Quote</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Product 3: Nano-Coated Wire ($16/sqft, 10 Yrs) -->
+                <article class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="photo/wire-nano.jpg" alt="Nano Coated Wire Rope with Blue Core" class="product-img" onerror="this.src='https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=600&q=80'">
+                        <span class="product-tag-overlay">Nano Series (纳米钢丝)</span>
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Nano-Coated / All-Weather Wire Rope</h3>
+                        <p class="product-subtitle">Flagship 316 SS | Blue-Core Quality Indicator</p>
+                        <ul class="product-features">
+                            <li>Ultimate toughness with superior anti-climbing capabilities</li>
+                            <li>Deep molecular nano-embedding for supreme strength</li>
+                            <li>Includes Blue-Core strand for genuine quality verification</li>
+                            <li>100% Rust-Free Guarantee for humid & coastal climates</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-meta">
+                                <strong>$16 / sq ft</strong>
+                                10-Year Warranty
+                            </div>
+                            <a href="#quote-calculator" class="header-contact-btn" style="font-size:0.8rem; padding: 6px 12px;">Quote</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==================== 3. PROJECT PHOTO SHOWCASE (新增展示画廊) ==================== -->
+        <section id="project-showcase" class="showcase-section">
+            <div class="section-header">
+                <span class="section-tag">Our Portfolio</span>
+                <h2 class="section-title">Completed Installation Showcase</h2>
+                <p class="section-desc">Take a look at our recent invisible grille installations across HDBs, Condos, and Landed Residences in Singapore.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="photo/project1.png" alt="HDB Balcony Invisible Grille" onerror="this.src='https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80'">
+                    <div class="gallery-caption">
+                        <h4>BTO Balcony Invisible Grille</h4>
+                        <p>PTFE Teflon Wire | 50mm Gap</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo/project2.png" alt="High-Rise Condo Window Safety Net" onerror="this.src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80'">
+                    <div class="gallery-caption">
+                        <h4>Condo Full-Height Window</h4>
+                        <p>Nano-Coated Wire | 100mm Gap</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo/project3.png" alt="Cat Proof Invisible Grille Enclosure" onerror="this.src='https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=80'">
+                    <div class="gallery-caption">
+                        <h4>Cat-Proof Balcony Safety Net</h4>
+                        <p>12+1 Nylon Wire | 50mm Gap</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo/project4.png" alt="Curved Balcony Custom Invisible Grille" onerror="this.src='https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80'">
+                    <div class="gallery-caption">
+                        <h4>Curved Balcony Custom Installation</h4>
+                        <p>PTFE Teflon Wire | Industrial Track</p>
+                    </div>
+                </div>
+
+ <div class="gallery-item">
+                    <img src="photo/project5.png" alt="Curved Balcony Custom Invisible Grille" onerror="this.src='https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80'">
+                    <div class="gallery-caption">
+                        <h4>Curved Balcony Custom Installation</h4>
+                        <p>PTFE Teflon Wire | Industrial Track</p>
+                    </div>
+                </div>
+   <div class="gallery-item">
+
+
+            </div>
+        </section>
+
+        <!-- ==================== 4. ALUMINIUM ALLOY TRACK SPECIFICATIONS ==================== -->
+        <section id="track-spec" class="track-section">
+            <div class="section-header">
+                <span class="section-tag">Structural Integrity</span>
+                <h2 class="section-title">Aluminium Alloy Track</h2>
+                <p class="section-desc">Designed to securely anchor your invisible grille system with maximum structural resilience.</p>
+            </div>
+
+            <div class="track-card">
+                <h3>High-Strength Structural Profile</h3>
+                <p>Constructed from high-strength industrial-grade aluminium alloy with a finely treated surface. It offers outstanding corrosion resistance, rust prevention, and structural load-bearing capacity. Its sturdy and durable design seamlessly adapts to various wall and window installation requirements, ensuring the utmost safety and stability of the invisible grille system for both residential and commercial spaces.</p>
+            </div>
+        </section>
+
+        <!-- ==================== 5. AI PRICE CALCULATOR ==================== -->
+        <section id="quote-calculator">
+            <div class="section-header">
+                <span class="section-tag">Interactive Estimator</span>
+                <h2 class="section-title">AI Instant Cost & Deposit Calculator</h2>
+                <p class="section-desc">Select your desired wire rope and distance specifications to get a transparent estimate.</p>
+            </div>
+
+            <div class="calc-container">
+                <div class="deposit-notice">
+                    📌 Specialist Guarantee: SGD $100 Booking Fee (Deposit) secures fast 7-day lead time & free site measurement.
+                </div>
+
+                <div class="form-group">
+                    <label for="wire-select">1. Select Wire Rope Type</label>
+                    <select id="wire-select" onchange="calculateCost()">
+                        <option value="nylon">12+1 Nylon-Coated Wire ($8 / sq ft - 3 Years Warranty)</option>
+                        <option value="ptfe" selected>PTFE Teflon Coated Wire ($10 / sq ft - 5 Years Warranty)</option>
+                        <option value="nano">Nano-Coated Blue Core ($16 / sq ft - 10 Years Warranty)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>2. Gap Distance Configuration</label>
+                    <div class="radio-tile-group">
+                        <label>
+                            <input type="radio" name="gap-spacing" value="50" checked onchange="calculateCost()">
+                            <div class="radio-tile">50mm Gap (High Density)</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="gap-spacing" value="100" onchange="calculateCost()">
+                            <div class="radio-tile">100mm Gap (Standard)</div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="area-range">3. Estimated Installation Area: <span id="area-disp" style="color:var(--accent-blue); font-weight:bold;">60</span> sq ft</label>
+                    <input type="range" id="area-range" min="20" max="300" step="5" value="60" oninput="updateArea(this.value); calculateCost();">
+                </div>
+
+                <div id="quote-result-box">
+                    <div style="font-size:0.9rem; color:var(--text-muted); font-weight:600;">Estimated Investment Range:</div>
+                    <div class="price-output" id="price-result">SGD $600 - $690</div>
+                    <p style="font-size:0.85rem; color: var(--text-muted); margin-bottom:15px;">*Includes structural track delivery, alignment, hardware, and dust-free installation.</p>
+                    <button class="btn-primary" style="width:100%; justify-content:center;" onclick="bookViaWhatsApp()">
+                        💬 Book Site Measurement (SGD $100 Deposit)
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== 6. FREQUENTLY ASKED QUESTIONS ==================== -->
+        <section id="faq" style="background-color: var(--bg-light);">
+            <div class="section-header">
+                <span class="section-tag">Got Questions?</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-wrapper">
+                <div class="faq-item" onclick="toggleFaq(this)">
+                    <div class="faq-question">What is the lead time and Minimum Order Quantity (MOQ)?</div>
+                    <div class="faq-answer">Our standard lead time is 7 working days from the confirmation of your order and completion of site measurement. The Minimum Order Quantity (MOQ) is 1 unit.</div>
+                </div>
+
+                <div class="faq-item" onclick="toggleFaq(this)">
+                    <div class="faq-question">How does the SGD $100 booking deposit work?</div>
+                    <div class="faq-answer">The SGD $100 deposit reserves your installation slot and covers professional on-site laser measurement. The deposit is fully offset against the final installation price quoted after measurement.</div>
+                </div>
+
+                <div class="faq-item" onclick="toggleFaq(this)">
+                    <div class="faq-question">What are the warranty terms for different wire types?</div>
+                    <div class="faq-answer">We offer 3-Year Warranty for 12+1 Nylon Coated Wire ($8/sqft), 5-Year Warranty for PTFE Teflon Coated Wire ($10/sqft), and 10-Year Warranty for Nano-Coated All-Weather Wire ($16/sqft).</div>
+                </div>
+
+                <div class="faq-item" onclick="toggleFaq(this)">
+                    <div class="faq-question">Can the 12+1 Nylon Wire be connected to a security alarm?</div>
+                    <div class="faq-answer">Yes! The 12+1 composite wire features 12 stainless-steel strands plus 1 internal steel conductor wire. This internal wire can be connected to an external home security alarm system for immediate intrusion alert if tampered with.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Exit Intent Modal -->
+    <div class="modal-overlay" id="exit-modal">
+        <div class="modal-box">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h3 style="color:var(--primary-dark); font-size:1.5rem; margin-bottom:10px;">Reserve Your 7-Day Slot Today</h3>
+            <p style="color:var(--text-muted); font-size:0.95rem; margin-bottom:20px;">Book now with a SGD 100 deposit for priority site measurement and complimentary hardware upgrade.</p>
+            <button class="btn-primary" style="width:100%; justify-content:center;" onclick="bookViaWhatsApp()">Claim Priority Slot via WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- Mobile Sticky Floating Button -->
+    <a href="https://wa.me/6583417888?text=Hi%20Invisible%20Grille%20Specialist%2C%20I%20would%20like%20to%20book%20a%20site%20measurement." class="mobile-sticky-cta" target="_blank">
+        💬 WhatsApp Us: 83417888
+    </a>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Invisible Grille Specialist</h4>
+                <p>Specialists in high-performance invisible safety net systems for residential and commercial spaces in Singapore.</p>
+                <p style="color:#60A5FA; font-weight:600; margin-top:10px;">Contact: +65 83417888</p>
+            </div>
+            <div class="footer-col">
+                <h4>Product Rates & Warranty</h4>
+                <p>• Nylon Wire: $8 / sq ft (3 Yrs Warranty)</p>
+                <p>• PTFE Teflon: $10 / sq ft (5 Yrs Warranty)</p>
+                <p>• Nano Wire: $16 / sq ft (10 Yrs Warranty)</p>
+            </div>
+            <div class="footer-col">
+                <h4>Commercial Terms</h4>
+                <p>• Lead Time: 7 Working Days</p>
+                <p>• Deposit: SGD $100 Booking Fee</p>
+                <p>• MOQ: 1 Unit</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Invisible Grille Specialist. All Rights Reserved. All prices subject to final site measurement.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== JAVASCRIPT LOGIC ==================== -->
+    <script>
+        // 滑块数值显示更新 (Area in sq ft)
+        function updateArea(val) {
+            document.getElementById('area-disp').innerText = val;
+        }
+
+        // 手风琴折叠控制
+        function toggleFaq(el) {
+            el.classList.toggle('active');
+        }
+
+        // 快捷套餐选择填充到计算器
+        function selectPreset(wireVal) {
+            document.getElementById('wire-select').value = wireVal;
+            calculateCost();
+        }
+
+        // 根据 $8 / $10 / $16 单价和间距精确估算
+        function calculateCost() {
+            const wire = document.getElementById('wire-select').value;
+            const area = parseFloat(document.getElementById('area-range').value);
+            
+            const spacingRadios = document.getElementsByName('gap-spacing');
+            let spacingMult = 1.0;
+            for (let r of spacingRadios) {
+                if (r.checked && r.value === '50') spacingMult = 1.25; // 50mm 密度高，用线与加工量增加
+            }
+
+            // 单价定义 (SGD/sqft)
+            let unitRate = 8; // nylon
+            if (wire === 'ptfe') unitRate = 10;
+            if (wire === 'nano') unitRate = 16;
+
+            // 基础计算公式
+            const baseCost = area * unitRate * spacingMult;
+            const minPrice = Math.floor(baseCost * 0.95);
+            const maxPrice = Math.floor(baseCost * 1.10);
+
+            document.getElementById('price-result').innerText = `SGD $${minPrice} - $${maxPrice}`;
+        }
+
+        // 唤醒 WhatsApp 发送带规格的预约消息
+        function bookViaWhatsApp() {
+            const wireText = document.getElementById('wire-select').options[document.getElementById('wire-select').selectedIndex].text;
+            let gapText = '100mm Gap';
+            const spacingRadios = document.getElementsByName('gap-spacing');
+            for (let r of spacingRadios) {
+                if (r.checked && r.value === '50') gapText = '50mm Gap';
+            }
+            const area = document.getElementById('area-range').value;
+            const price = document.getElementById('price-result').innerText;
+
+            const message = `Hi Invisible Grille Specialist, I would like to book a site measurement (SGD 100 deposit) for invisible grilles:\n` +
+                            `- Wire Type: ${wireText}\n` +
+                            `- Gap Spacing: ${gapText}\n` +
+                            `- Est. Area: ${area} sq ft\n` +
+                            `- Price Estimate: ${price}\n` +
+                            `Please advise available site measurement slots.`;
+
+            window.open(`https://wa.me/6583417888?text=${encodeURIComponent(message)}`, '_blank');
+        }
+
+        // 离屏拦截弹窗逻辑
+        let modalShown = false;
+        document.addEventListener('mouseleave', function(e) {
+            if (e.clientY < 20 && !modalShown && !localStorage.getItem('specialistModalDismissed')) {
+                document.getElementById('exit-modal').style.display = 'flex';
+                modalShown = true;
+            }
+        });
+
+        function closeModal() {
+            document.getElementById('exit-modal').style.display = 'none';
+            localStorage.setItem('specialistModalDismissed', 'true');
+        }
+
+        window.onload = function() {
+            calculateCost();
+        };
+    </script>
+</body>
+</html>
